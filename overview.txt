@@ -1,0 +1,16 @@
+装修
+service/decorate
+房产
+service/house
+
+/service/业务/pub
+公共接口-此类接口需要细心编写，接口将会可能被所有业务调用
+service/decorate/pri
+私有接口-接口智能被片面的业务使用，重要程度不高
+service/decorate/dao/base
+数据操作层-此包下封装单表的基础操作
+service/decorate/dao/query
+数据操作层-此包下封装复杂的sql查询语句
+
+svn 地址
+https://118.244.179.252/svn/huigenghao/code/huigenghao/trunk
